@@ -39,7 +39,7 @@ DEFAULT_REMOTE_BORG = "borg14"
 ## Usage
 Run the script as root:
 ```bash
-sudo python3 borgmatic-restore.py
+python3 borgmatic-restore.py
 ```
 
 ## Status & Mount Layout (ASCII Diagram)
