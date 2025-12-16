@@ -19,7 +19,7 @@ Designed to run **as root** on Alpine Linux (or similar systems).
 - Root privileges
 - Access to configured SSH keys for remote repositories
 - Support for fuse, python fuse and yaml (Alpine: apk add fuse fuse-dev py3-llfuse py3-yaml)
-
+- Support for rsync.net different borg binary name
 
 ## Installation
 1. Copy `borgmatic-restore.py` to your server.
