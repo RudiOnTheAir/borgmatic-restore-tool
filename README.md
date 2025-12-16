@@ -1,7 +1,3 @@
-# borgmatic-restore-tool
-A python tool to open und mount by borgmatic created borg repositories
-
-
 # Borgmatic Restore Tool
 
 A simple Python tool to browse and mount Borg repositories managed via borgmatic.  
