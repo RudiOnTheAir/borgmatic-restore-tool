@@ -69,7 +69,7 @@ STATUS:
 ## Notes
 - Mounts are **read-only**; no changes are made to the repository.
 - If multiple archives are mounted, separate directories are created automatically.
-- The script sets `BORG_PASSPHRASE` automatically for the session.
+- The script reads from config.yaml and sets `BORG_PASSPHRASE` automatically for the session.
 - SSH agent integration is **not required**; run the script as root with proper key access.
 
 ## Example Run
