@@ -32,7 +32,7 @@ chmod +x borgmatic-restore.py
 CONFIG_DIR = "/root/borgmatic"
 MOUNT_BASE = "/mnt/borgrestore"
 BORG_BINARY = "borg"
-DEFAULT_REMOTE_BORG = "borg14"
+DEFAULT_REMOTE_BORG = "borg14" # adjust the name of the remote borg binary!
 ```
 4. Make sure your SSH keys have access to remote repositories.
 
